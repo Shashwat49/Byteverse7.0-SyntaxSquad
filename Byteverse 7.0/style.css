@@ -1,0 +1,82 @@
+.logo {
+    width: 80px;
+    height: 80px;
+}
+
+.navbar {
+    width: 99vw;
+}
+
+.container {
+    height: 92vh;
+    width: 99vw;
+}
+
+.welcome-text {
+    height: 92vh;
+    width: 99vw;
+    background-image: url("/images/img-4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction:column;
+    opacity: #000 50%;
+    color: #fff;
+    padding-left: 40px;
+}
+
+.text {
+    width: 50%;
+}
+
+.mission-container {
+    text-align: center;
+    padding-top: 40px;
+    color: #ffffff;
+    background-image: url("images/mission.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: #000 30%;
+}
+
+.cards {
+    color: #000;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards .card {
+    margin: 70px;
+    height: 51vh;
+    transition: 0.15s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: scale(1.15);
+}
+
+.cards .card .btn {
+    margin-top: 10px;
+}
+
+.contact-container {
+    height: 100vh;
+    width: 99vw;
+    text-align: center;
+    color: #000;
+}
+
+.contact-container h1 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contact-container .form {
+    width: 80%;
+    margin-left: 140px;
+}
